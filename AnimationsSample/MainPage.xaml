@@ -1,7 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="AnimationsSample.MainPage">
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+<ContentPage Title="Animations Galore" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="AnimationsSample.MainPage">
+    <ScrollView>
+        <StackLayout Padding="24" Spacing="24">
+            <!-- Place new controls here -->
+            <Label Text="Click one of the buttons below to test that animation." HorizontalTextAlignment="Center" HorizontalOptions="Center" />
+
+            <Button x:Name="Card3D" Text="Card 3D" Clicked="Card3D_Clicked" />
+            <Button x:Name="Scale2X" Text="Scale To 2x" Clicked="Scale2X_Clicked" />
+            <Button x:Name="Shake" Text="The Apple Shake" Clicked="Shake_Clicked" />
+            <Button x:Name="Bounce" Text="MacOS Bouncy Icons" Clicked="Bounce_Clicked" />
+            <Button x:Name="Gradient" Text="Pancake Gradient Shifts" Clicked="Gradient_Clicked" />
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

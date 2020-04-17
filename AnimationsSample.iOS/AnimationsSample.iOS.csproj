@@ -113,6 +113,24 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\pancake.imageset\pancake%403x.jpg" />
+    <ImageAsset Include="Assets.xcassets\pancake.imageset\pancake%402x.jpg" />
+    <ImageAsset Include="Assets.xcassets\pancake.imageset\pancake.jpg" />
+    <ImageAsset Include="Assets.xcassets\pancake.imageset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\profile.imageset\profile%403x.png" />
+    <ImageAsset Include="Assets.xcassets\profile.imageset\profile%402x.png" />
+    <ImageAsset Include="Assets.xcassets\profile.imageset\profile.png" />
+    <ImageAsset Include="Assets.xcassets\profile.imageset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\rainbow.imageset\rainbow%403x.png" />
+    <ImageAsset Include="Assets.xcassets\rainbow.imageset\rainbow%402x.png" />
+    <ImageAsset Include="Assets.xcassets\rainbow.imageset\rainbow.png" />
+    <ImageAsset Include="Assets.xcassets\rainbow.imageset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

@@ -17,5 +17,30 @@ namespace AnimationsSample
         {
             InitializeComponent();
         }
+
+        async void Card3D_Clicked(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new Card3DPage());
+        }
+
+        async void Shake_Clicked(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new ProfileShakePage());
+        }
+
+        async void Scale2X_Clicked(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new ScaleTo2xPage());
+        }
+
+        async void Bounce_Clicked(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new MacIconBouncePage());
+        }
+
+        async void Gradient_Clicked(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new PancakeGradientShiftsPage());
+        }
     }
 }
